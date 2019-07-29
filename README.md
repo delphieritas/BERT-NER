@@ -21,5 +21,5 @@ A sample output is given, which was tested on NUS SoC own dataset, data\test.txt
               
 ## Note:
 Do not remove the file, label_test.txt (under dir: output\result_dir), which is required when performing the training and testing.
-The original BERT repo can be found https://github.com/google-research/bert
+The original BERT repo can be found https://github.com/google-research/bert                      
 The BERT-NER repo is based on code provided here https://github.com/kyzhouhzau/BERT-NER
