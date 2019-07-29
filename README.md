@@ -2,14 +2,14 @@
 
 **\*\*\*\*\*  Jul 27st, 2019  \*\*\*\*\**
 
-## To run the code
+## Usage
 Pls use 'bash run_ner.sh' in MAC terminal or Linux (Ubuntu/...).
-The model will be trained on data\train.txt (based on conll2003 dataset).
-To test the model performance, pls feed the model with your own test data file. Refer to data\test.txt for the dataset format.
+The model is trained on data\train.txt (based on conll2003 dataset).
+To test the model performance, feed the model with your test dataset. Refer to data\test.txt for the dataset format.
 The Tag Description is following this website: https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
 
 ## Output
-A sample output is given, which was tested on our own dataset, test.txt (600+ sentences).               
+A sample output is given, which was tested on NUS SoC own dataset, data\test.txt (600+ sentences, most are collected from the latest Bloomberg news dated to Jul 2019).               
 
 
 |Acuracy:  | 97.12% | precision: | 72.09% | recall:  | 74.08% |  FB1:  | 73.07  |
@@ -21,3 +21,5 @@ A sample output is given, which was tested on our own dataset, test.txt (600+ se
               
 ## Note:
 Do not remove the file, label_test.txt (under dir: output\result_dir), which is required when performing the training and testing.
+The original BERT repo can be found https://github.com/google-research/bert
+The BERT-NER repo is based on code provided here https://github.com/kyzhouhzau/BERT-NER
