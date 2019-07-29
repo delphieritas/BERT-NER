@@ -4,8 +4,8 @@
 
 ## To run the code
 Pls use 'bash run_ner.sh' in MAC terminal or Linux (Ubuntu/...).
-The model will be trained on train.txt (based on conll2003 dataset), dir: data\train.txt.
-To test the model performance, pls feed the model with your own test data file. Refer to dir: data\test.txt for the dataset format.
+The model will be trained on data\train.txt (based on conll2003 dataset).
+To test the model performance, pls feed the model with your own test data file. Refer to data\test.txt for the dataset format.
 The Tag Description is following this website: https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
 
 ## Output
